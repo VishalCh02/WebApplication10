@@ -29,6 +29,7 @@ namespace WebApplication10
             DataSet ds = con.getdata("select * from emp where " + DropDownList1.Text + "='" + TextBox1.Text + "'");
             GridView1.DataSource = ds.Tables[0];
             GridView1.DataBind();
+            Response.Write("Hello");
         }
     }
 }

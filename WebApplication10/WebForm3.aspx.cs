@@ -51,6 +51,8 @@ namespace WebApplication10
             con.Open();
             cmd.ExecuteNonQuery();
             Label1.Text = "1 Row Deleted";
+            Response.Write("Hello");
+
             
         }
     }
